@@ -1,0 +1,89 @@
+.title {
+  font-weight: 800;
+  text-transform: uppercase;
+  font-size: 2.2em;
+  align-self: center;
+}
+
+.container {
+  width: 50%;
+  height: 380px;
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+  background: white;
+  border-radius: 15px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+.flag {
+  width: 100px;
+  align-self: center;
+}
+
+.input {
+  padding: 12px;
+  width: 100%;
+  background: white;
+  outline: none;
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+
+.info {
+  display: flex;
+}
+.item {
+  flex: 1;
+}
+.strong {
+  font-weight: 800;
+}
+
+.score {
+  width: 55%;
+  margin: auto;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.results {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.playAgain {
+  margin-top: 15px;
+  background: white;
+  outline: none;
+  padding: 15px;
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.playAgain:hover {
+  transform: scale(1.05);
+}
+
+.answerStatus {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.giveUp {
+  margin-top: 20px;
+  background: white;
+  outline: none;
+  padding: 10px;
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+  width: 20%;
+  align-self: flex-end;
+}

@@ -1,0 +1,18 @@
+.App * {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  /* font-size: 1.2em; */
+}
+
+.App {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgb(255,181,99);
+  background: linear-gradient(152deg, rgba(255,181,99,1) 0%, rgba(255,233,157,1) 100%);
+}
