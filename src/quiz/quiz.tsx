@@ -201,7 +201,7 @@ const flags: Flag[] = [
   { names: ['Saint Lucia'],	code: 'LC' },
   // { names: ['Saint-Martin (French part)'],	code: 'MF' },
   // { names: ['Saint Pierre and Miquelon'],	code: 'PM' },
-  { names: ['Saint Vincent and Grenadines'],	code: 'VC' },
+  { names: ['Saint Vincent and Grenadines', 'Saint Vincent and the Grenadines'],	code: 'VC' },
   { names: ['Samoa'],	code: 'WS' },
   { names: ['San Marino'],	code: 'SM' },
   { names: ['Sao Tome and Principe'],	code: 'ST' },
